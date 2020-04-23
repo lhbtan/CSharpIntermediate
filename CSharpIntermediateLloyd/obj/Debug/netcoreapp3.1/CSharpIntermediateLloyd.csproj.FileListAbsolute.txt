@@ -1,0 +1,13 @@
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\bin\Debug\netcoreapp3.1\CSharpIntermediateLloyd.exe
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\bin\Debug\netcoreapp3.1\CSharpIntermediateLloyd.deps.json
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\bin\Debug\netcoreapp3.1\CSharpIntermediateLloyd.runtimeconfig.json
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\bin\Debug\netcoreapp3.1\CSharpIntermediateLloyd.runtimeconfig.dev.json
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\bin\Debug\netcoreapp3.1\CSharpIntermediateLloyd.dll
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\bin\Debug\netcoreapp3.1\CSharpIntermediateLloyd.pdb
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.csprojAssemblyReference.cache
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.csproj.CoreCompileInputs.cache
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.AssemblyInfoInputs.cache
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.AssemblyInfo.cs
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.dll
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.pdb
+C:\Users\Lloyd Tan\source\repos\CSharpIntermediateLloyd\CSharpIntermediateLloyd\obj\Debug\netcoreapp3.1\CSharpIntermediateLloyd.genruntimeconfig.cache
