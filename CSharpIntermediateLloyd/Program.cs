@@ -7,26 +7,28 @@ namespace CSharpIntermediateLloyd
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Write  'Start' to start the stopwatch, and 'Stop' to end it.");
-            var stopwatch1 = new Stopwatch();
+            Console.WriteLine("Post Created, type 'up' to upvote, 'down' to downvote 'title: ...' to change the title and 'status' to see status");
+            var post = new Post();
             while (true)
             {
                 var input = Console.ReadLine().ToLower();
-                if (input == "start")
+                if (input == "up")
                 {
-                    stopwatch1.Start();
+                    post.Upvotes = 6;
                 }
-                else if (input == "stop")
+                else if (input == "down")
                 {
-                    var result = stopwatch1.Stop();
-                    if (result == 0)
-                    {
-                        Console.WriteLine("Start the stopwatch first, no time recorded");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Your time is: " + result + " seconds!");
-                    }
+                    post.Downvotes = 7;
+                }
+                else if (input.Substring(0, 6) == "title:")
+                {
+                    var title = input.Substring(7);
+                    post.SetTitle(title);
+                }
+                else if (input == "status")
+                {
+                    var current = post.ShowCurrent();
+                    Console.WriteLine("Total vote status of "+post.Title + " is: " + current);
                 }
                 else
                 {
