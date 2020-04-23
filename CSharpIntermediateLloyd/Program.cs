@@ -14,21 +14,29 @@ namespace CSharpIntermediateLloyd
                 var input = Console.ReadLine().ToLower();
                 if (input == "up")
                 {
-                    post.Upvotes = 6;
+                    post.Upvote();
                 }
                 else if (input == "down")
                 {
-                    post.Downvotes = 7;
+                    post.Downvote();
                 }
-                else if (input.Substring(0, 6) == "title:")
+                else if (input.Length >6)
                 {
-                    var title = input.Substring(7);
-                    post.SetTitle(title);
+                    if (input.Substring(0, 6) == "title:")
+                    {
+                        var title = input.Substring(7);
+                        post.SetTitle(title);
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
                 else if (input == "status")
                 {
                     var current = post.ShowCurrent();
                     Console.WriteLine("Total vote status of "+post.Title + " is: " + current);
+                    Console.WriteLine("Post created at: " + post.Created);
                 }
                 else
                 {

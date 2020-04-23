@@ -4,10 +4,10 @@ namespace CSharpIntermediateLloyd
 {
     public class Post
     {
-        public int Upvotes { get; set; }
-        public int Downvotes { get; set; }
-        public DateTime Created { get; set; }
-        public string Title { get; set; }
+        public int Upvotes { get; private set; }
+        public int Downvotes { get; private set; }
+        public DateTime Created { get; private set; }
+        public string Title { get; private set; }
 
         public Post()
         {
