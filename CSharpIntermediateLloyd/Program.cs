@@ -1,18 +1,24 @@
-﻿using System;
-using System.Threading.Channels;
+﻿
+using System;
 
 namespace CSharpIntermediateLloyd
 {
-    public class Person
-    {
-        public DateTime Birthdate { get; set; }
-    }
+
+
+
     class Program 
     {
         static void Main(string[] args)
         {
-         //first commit
-         //This is in develop
+           
+                var stack1 = new Stack();
+                stack1.Push("1234");
+                stack1.Push(123);
+                stack1.Push("34536363");
+                
+                Console.WriteLine(stack1.Pop());
+                Console.WriteLine(stack1.Pop());
+                Console.WriteLine(stack1.Pop());
         }
     }
 }
